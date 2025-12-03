@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pinterest/app_routes.dart';
-import 'package:pinterest/identity_card.dart';
-import 'package:pinterest/monday_class.dart';
+import 'package:pinterest/constants/app_routes.dart';
+import 'package:pinterest/modules/extra/identity_card.dart';
+import 'package:pinterest/modules/extra/monday_class.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

@@ -1,9 +1,9 @@
-import 'package:pinterest/home_page.dart';
-import 'package:pinterest/identity_card.dart';
-import 'package:pinterest/login_screen.dart';
-import 'package:pinterest/monday_class.dart';
-import 'package:pinterest/signup_screen.dart';
-import 'package:pinterest/simple_interest.dart';
+import 'package:pinterest/modules/extra/home_page.dart';
+import 'package:pinterest/modules/auth/login_screen.dart';
+import 'package:pinterest/modules/extra/identity_card.dart';
+import 'package:pinterest/modules/extra/monday_class.dart';
+import 'package:pinterest/modules/auth/signup_screen.dart';
+import 'package:pinterest/modules/extra/simple_interest.dart';
 
 class AppRoute {
   AppRoute._();
