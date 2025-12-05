@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pinterest/modules/home/dashboard_view.dart';
+import 'package:pinterest/modules/home/order_screen.dart';
 
 class BottomNavigation extends StatefulWidget {
   const BottomNavigation({super.key});
@@ -10,7 +11,7 @@ class BottomNavigation extends StatefulWidget {
 
 class _BottomNavigationState extends State<BottomNavigation> {
   int index = 0;
-  final screens = [DashboardView(), DashboardView(), DashboardView()];
+  final screens = [DashboardView(), OrderScreen(), DashboardView()];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
